@@ -1,0 +1,47 @@
+{
+  "meta" :"charset=utf-8",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "春河EIP",
+      "url": "http://kseip.internal.kinsus.com.tw/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "羱戈琩高╰参",
+      "url": "http://k1ap33/kssa/common/Login.aspx"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "琩高",
+      "url": "http://kseip.internal.kinsus.com.tw/_layouts/15/KINSUS.EIP.Web/peoplesearch.aspx"
+    }
+  ],
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://careercenter.ncu.edu.tw/campustalent/storage/company_logo/70785139_logo.jpeg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to KS BOT!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "Now that you have successfully use KS bot.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "type": "AdaptiveCard",
+  "version": "1.0"
+}
